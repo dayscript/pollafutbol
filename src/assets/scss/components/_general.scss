@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-family: $font-Semibold;
+  letter-spacing: -1px;
+}
+
+//Tipo
+body {
+  font-size: 0.9em;
+}
+
+.title {
+  border-bottom: 3px solid $green;
+  padding-bottom: 6px;
+}
+
+.title-section {
+  color: $white;
+}
+
+// Links
+a {
+  color: $green;
+  &:hover {
+    color: #000;
+  }
+  &.password {
+    font-size: 1em;
+  }
+  &.light{
+    &:hover {
+      color: $white;
+    }
+  }
+}
+
+hr {
+  &.light {
+    margin: 20px 0;
+    border-bottom: none;
+  }
+}

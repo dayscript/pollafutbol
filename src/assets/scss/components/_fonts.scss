@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Signika-Semibold';
+  src: url('../fonts/Signika-Semibold/Signika-Semibold.eot');
+  src: local('☺'), url('../fonts/Signika-Semibold/Signika-Semibold.woff') format('woff'), url('../fonts/Signika-Semibold/Signika-Semibold.ttf') format('truetype'), url('../fonts/Signika-Semibold/Signika-Semibold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Signika-Regular';
+  src: url('../fonts/Signika-Regular/Signika-Regular.eot');
+  src: local('☺'), url('../fonts/Signika-Regular/Signika-Regular.woff') format('woff'), url('../fonts/Signika-Regular/Signika-Regular.ttf') format('truetype'), url('../fonts/Signika-Regular/Signika-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+$font-Regular: 'Signika-Semibold';
+$font-Semibold: 'Signika-Regular';
